@@ -25,7 +25,6 @@ a:hover {
 section {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 section .header {
@@ -86,3 +85,22 @@ header nav ul li {
   margin-top: 100px;
 }
 
+/*About Styles*/
+
+.about {
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.about .thumbnail {
+  padding: 0;
+  border: none;
+}
+
+.about .thumbnail img {
+  border-radius: 50px;
+}
+
+.about p {
+  padding: 20px;
+}
