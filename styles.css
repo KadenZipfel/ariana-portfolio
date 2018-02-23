@@ -126,3 +126,16 @@ header nav ul li {
 .gallery .thumbnail img:hover {
   opacity: 0.75;
 }
+
+/*Contact Styles*/
+
+.contact {
+  min-height: 30vh;
+  justify-content: center;
+}
+
+.contact p {
+  padding-bottom: 20px;
+  font-size: 1.5em;
+}
+
