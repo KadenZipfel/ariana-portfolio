@@ -139,3 +139,18 @@ header nav ul li {
   font-size: 1.5em;
 }
 
+/*Footer Styles*/
+
+footer {
+  background-color: grey;
+}
+
+footer i {
+  float: left;
+  opacity: 0.85;
+  transition: 0.5s;
+}
+
+footer i:hover {
+  opacity: 1;
+}
