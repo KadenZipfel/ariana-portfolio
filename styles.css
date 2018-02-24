@@ -42,6 +42,7 @@ section:not(.hero):nth-child(even) {
 
 header {
   display: inline;
+  padding: 35px 100px 0;
 }
 
 header nav ul li {
@@ -53,10 +54,12 @@ header nav ul li {
 
 .hero {
   position: relative;
+  margin-top: -70px;
   justify-content: center;
   text-align: center;
   min-height: 100vh;
   color: white;
+  z-index: -1;
 }
 
 .hero .background-image {
